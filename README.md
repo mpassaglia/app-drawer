@@ -1,4 +1,4 @@
-#### A simple app-drawer for Bootstrap `navbar`s
+#### A simple app-drawer for Bootstrap `navbars`
 
 app-drawer works within a Bootstrap `navbar` control.
 
