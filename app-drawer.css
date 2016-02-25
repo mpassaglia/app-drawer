@@ -1,4 +1,33 @@
-/*@desktop-size: 769px;*/
+.strike {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #e7e7e7;
+  margin: 5px 10px;
+  position: relative;
+  color: #555;
+}
+.strike:before,
+.strike:after {
+  background-color: #999;
+  content: "";
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+.strike:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+.strike:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+/*@desktop-size: 768px;*/
 @media only screen and (min-width: 768px) {
   #app-drawer {
     position: fixed !important;
@@ -74,6 +103,7 @@
     display: normal;
   }
 }
+
 @media only screen and (max-width: 767px) {
   #app-drawer {
     position: fixed !important;
@@ -158,32 +188,4 @@
   #menu-caret {
     display: none;
   }
-}
-.strike {
-  display: block;
-  text-align: center;
-  overflow: hidden;
-  white-space: nowrap;
-  background: #e7e7e7;
-  margin: 5px 10px;
-  position: relative;
-  color: #555;
-}
-.strike:before,
-.strike:after {
-  background-color: #999;
-  content: "";
-  display: inline-block;
-  height: 2px;
-  position: relative;
-  vertical-align: middle;
-  width: 50%;
-}
-.strike:before {
-  right: 0.5em;
-  margin-left: -50%;
-}
-.strike:after {
-  left: 0.5em;
-  margin-right: -50%;
 }
