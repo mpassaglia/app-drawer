@@ -2,6 +2,14 @@
 
 app-drawer works within a Bootstrap `navbar` control.
 
+Desktop View:
+
+![Image](https://raw.githubusercontent.com/mpassaglia/app-drawer/master/app-drawer-full-screen.gif?raw=true)
+
+Mobile View:
+
+![Image](https://raw.githubusercontent.com/mpassaglia/app-drawer/master/app-drawer-mobile-view.gif?raw=true)
+
 To implement app-drawer:
 
 - Ensure that your page includes references to app-drawer.js and app-drawer.css, bootstrap.css and bootstrap.js, as well as a recent version of jQuery (>1.9.1).
